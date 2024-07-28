@@ -1,0 +1,22 @@
+db.dogfacts.insertMany([
+    { _id: "1", fact: "Dogs have a sense of time." },
+    { _id: "2", fact: "Dogs' sense of smell is at least 40x better than ours." },
+    { _id: "3", fact: "Some dogs are incredible swimmers." },
+    { _id: "4", fact: "Dogs can hear 4 times as far as humans." },
+    { _id: "5", fact: "A dog’s nose print is unique, much like a person’s fingerprint." },
+    { _id: "6", fact: "Dogs dream like people." },
+    { _id: "7", fact: "Dogs have about 1,700 taste buds." },
+    { _id: "8", fact: "A dog’s sense of smell can be used to detect changes in human body chemicals." },
+    { _id: "9", fact: "Three dogs survived the Titanic sinking." },
+    { _id: "10", fact: "A Greyhound could beat a Cheetah in a long-distance race." },
+    { _id: "11", fact: "The Basenji dog is the only dog that doesn’t bark." },
+    { _id: "12", fact: "Dogs can learn more than 1,000 words." },
+    { _id: "13", fact: "The Newfoundland breed has webbed feet and was originally bred to help haul nets for fishermen." },
+    { _id: "14", fact: "A dog’s nose has as many as 300 million smell receptors." },
+    { _id: "15", fact: "The Beatles song 'A Day in the Life' has a frequency only dogs can hear." },
+    { _id: "16", fact: "Dogs curl up to protect their organs—a holdover from their days in the wild." },
+    { _id: "17", fact: "Dogs can get jealous when their owners display affection toward others." },
+    { _id: "18", fact: "Dogs can be trained to detect diseases such as cancer and diabetes." },
+    { _id: "19", fact: "A dog’s sense of smell is its most powerful sense." },
+    { _id: "20", fact: "A dog’s whiskers help it detect objects in its surroundings." }
+])
