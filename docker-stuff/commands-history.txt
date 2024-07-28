@@ -1,0 +1,214 @@
+ 1444* cd /Users/jstochni/Praca/munich-workshops/spring-app/backend
+ 1445* ./gradlew bootRun
+ 1446* brew install openjdk@17
+ 1447* echo 'export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"' >> ~/.zshrc
+ 1448* java -v
+ 1449* java --v
+ 1450* java --version
+ 1451* ./gradlew bootRun
+ 1452* ./gradlew bootRun --info
+ 1453* java -v
+ 1454* java --version
+ 1455* ./gradlew build
+ 1456* ./gradlew build --scan
+ 1457* ./gradlew build
+ 1458* ./gradlew bootRun
+ 1459* ls
+ 1460* cd ..
+ 1461* ls
+ 1462* cd angular-app
+ 1463* ls
+ 1464* cd frontend
+ 1465  docker run -d -p 27017:27017 --name=mongodogs mongo:latest\n
+ 1466  docker container ps
+ 1467* ./gradlew build
+ 1468* ./gradlew bootRun
+ 1469* docker exec -it mongodogs mongosh
+ 1470* ./gradlew bootRun
+ 1471  docker exec -it mongodogs mongosh
+ 1472* ./gradlew bootRun
+ 1473  ls
+ 1474  cd angular-app
+ 1475  ls
+ 1476  cd frontend
+ 1477  ls
+ 1478  cd src
+ 1479  ls
+ 1480  cd app
+ 1481  ls
+ 1482  ng g s dog-fact
+ 1483  ls
+ 1484  cd ..
+ 1485  ls
+ 1486  ng serve
+ 1487  ng serve --proxy-config proxy.conf.json\n
+ 1488  ng serve
+ 1489* ./gradlew bootRun
+ 1490  ng serve
+ 1491* ./gradlew bootRun
+ 1492* ./gradlew build
+ 1493* ./gradlew bootRun
+ 1494  ng serve
+ 1495* docker run --name redis -d -p 6379:6379 redis
+ 1496* ./gradlew build
+ 1497* ./gradlew runBoot
+ 1498* ./gradlew bootRun
+ 1499* cd ..
+ 1500* ls
+ 1501* cd ..
+ 1502* ls
+ 1503* git commit -m "init repository, baseline for workshops"
+ 1504* git add *
+ 1505* git commit -m "init repository, baseline for workshops"
+ 1506* git push
+ 1507* git remote ls
+ 1508* git remote get-url
+ 1509* git config --get remote.origin.url\n
+ 1510* git push -u origin master
+ 1511* git push -u origin main
+ 1512  docker build -t ng-docker-app:v1.0.0 -f ./Dockerfile
+ 1513  docker image ls
+ 1514  docker build -t ng-docker-app:v1.0.0 -f ./Dockerfile .\n
+ 1515  docker run -p 8000:80 -d ng-docker-app:v1.0.0\n
+ 1516  docker exec -it a6c0
+ 1517  docker exec -it a6c0 sh
+ 1518  ls
+ 1519  npm run build
+ 1520  docker build -t ng-docker-app:v1.0.0 -f ./Dockerfile .\n
+ 1521  docker exec -it a6c0 sh
+ 1522  docker build -t ng-docker-app:v1.0.0 -f ./Dockerfile .\n
+ 1523  docker run -p 8000:80 -d ng-docker-app:v1.0.0\n
+ 1524  docker stop a6c
+ 1525  docker container rm a6c
+ 1526  docker container stop 976
+ 1527  docker container rm 976
+ 1528  docker run -p 8000:80 -d ng-docker-app:v1.0.0\n
+ 1529  docker exec -it a6c0 sh
+ 1530  docker exec -it fb54 sh
+ 1531  docker build -t ng-docker-app:v1.0.0 -f ./Dockerfile .\n
+ 1532  docker container ls\n
+ 1533  docker stop 0fd
+ 1534  docker container stop fb54
+ 1535  docker container rm fb54
+ 1536  docker build -t ng-docker-app:v1.0.0 -f ./Dockerfile .\n
+ 1537  docker run -p 8000:80 -d ng-docker-app:v1.0.0\n
+ 1538  docker exec -it 7791 sh
+ 1539  docker build -t ng-docker-app:v1.0.0 -f ./Dockerfile .\n
+ 1540  ls
+ 1541  docker run -p 8000:80 -d ng-docker-app:v1.0.0\n
+ 1542  docker exec -it deb4 sh
+ 1543  docker build -t ng-docker-app:v1.0.0 -f ./Dockerfile .\n
+ 1544  docker run -p 8000:80 -d ng-docker-app:v1.0.0\n
+ 1545  docker exec -it e35db  sh
+ 1546  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1547  docker run -p 8000:80 -d ng-docker-app:v1.0.0\n
+ 1548  docker run -p 8000:80 -d ng-docker-app:v1.0.1\n
+ 1549  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1550  docker run -p 8000:80 -d ng-docker-app:v1.0.1\n
+ 1551  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1552  docker run -p 8000:80 -d ng-docker-app:v1.0.1\n
+ 1553  docker exec -it 8474  sh
+ 1554  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1555  docker run -p 8000:80 -d ng-docker-app:v1.0.1\n
+ 1556  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1557  docker run -p 8000:80 -d ng-docker-app:v1.0.1\n
+ 1558  docker exec -it 3242  sh
+ 1559* ls
+ 1560* cd spring-app
+ 1561* ls
+ 1562* cd backend
+ 1563* ls
+ 1564* ./gradlew bootRun
+ 1565  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1566  docker run -p 8000:80 -d ng-docker-app:v1.0.1\n
+ 1567  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1568  docker run -p 8000:80 -d ng-docker-app:v1.0.1\n
+ 1569  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1570  docker run -p 8000:80 -d ng-docker-app:v1.0.1\n
+ 1571  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1572  docker run -p 8000:80 -d ng-docker-app:v1.0.1\n
+ 1573  docker container 067 top
+ 1574  docker container 067 logs
+ 1575  docker container logs
+ 1576  docker container logs --help
+ 1577  docker container logs 067c
+ 1578  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1579  docker run -p 8000:80 -d ng-docker-app:v1.0.1\n
+ 1580  docker container logs 9880
+ 1581  docker run -p 8000:80 -d --network="host" ng-docker-app:v1.0.1\n
+ 1582  cd ..
+ 1583  ls
+ 1584  cd spring-app/backend
+ 1585  ls
+ 1586  docker build --build-arg JAR_FILE=build/libs/\*.jar -t springio/gs-spring-boot-docker .
+ 1587  ./gradlew build
+ 1588  docker run -p 8080:8080 springio/gs-spring-boot-docker\n
+ 1589  docker run -p 4200:8080 springio/gs-spring-boot-docker\n
+ 1590  docker run -p 8000:80 -d  ng-docker-app:v1.0.1\n
+ 1591  docker network ls
+ 1592  docker network --help
+ 1593  docker network inspect bridge
+ 1594  docker run springio/gs-spring-boot-docker\n
+ 1595  docker ps
+ 1596  docker inspect
+ 1597  docker inspect 20e
+ 1598  docker container ls
+ 1599  docker inspect 20e
+ 1600  docker containers ls
+ 1601  docker container ls
+ 1602  docker inspect 6977
+ 1603  ls
+ 1604  docker build --build-arg JAR_FILE=build/libs/\*.jar -t backend .
+ 1605  docker run -p 8080:8080 backend
+ 1606  docker container ls
+ 1607  docker run -p 8080:8080 -d backend
+ 1608  docker container ls
+ 1609  docker container inspect backend
+ 1610  docker inspect backend
+ 1611  docker container inspectf79d
+ 1612  docker container inspect f79d
+ 1613  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1614  cd ..
+ 1615  ls
+ 1616  cd angular-app
+ 1617  ls frontend
+ 1618  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1619  ls
+ 1620  cd frontend
+ 1621  docker build -t ng-docker-app:v1.0.1 -f ./Dockerfile .\n
+ 1622  docker run -p 8000:80 -d ng-docker-app:v1.0.1\n
+ 1623  docker exec -it f79de sh
+ 1624  docker network ls
+ 1625  docker inspect 120
+ 1626  cd ..
+ 1627  cd spring-app
+ 1628  cd backend
+ 1629  ./gradlew cleanBuild
+ 1630  ./gradlew clean
+ 1631  ./gradlew build
+ 1632  docker build --build-arg JAR_FILE=build/libs/\*.jar -t backend .\n
+ 1633  docker run -p 8080:8080 backend
+ 1634* docker exec -it 20e20 redis-cli
+ 1635* docker exec -it 20e20 bash
+ 1636* docker exec -it 20e20 redis-cli
+ 1637* docker exec -it 20e20 bash
+ 1638* cd ..
+ 1639* ls
+ 1640* cd docker-stuff
+ 1641* ls
+ 1642* docker build -t redis .
+ 1643* docker run -d -p 6379:6379 redis
+ 1644* docker exec -it 542f
+ 1645* docker exec -it 542f redis-cli
+ 1646  docker run -p 8080:8080 backend
+ 1647* docker run -p 11211:11211 memcached
+ 1648* docker run -d -p 6379:6379 redis
+ 1649  docker run -p 8080:8080 backend
+ 1650  ./gradlew clean
+ 1651  ./gradlew build
+ 1652  docker build --build-arg JAR_FILE=build/libs/\*.jar -t backend .\n
+ 1653  docker run -p 8080:8080 backend
+ 1654  ./gradlew clean
+ 1655  ./gradlew build
+ 1656  docker build --build-arg JAR_FILE=build/libs/\*.jar -t backend .\n
+ 1657  docker run -p 8080:8080 backend
